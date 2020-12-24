@@ -62,8 +62,9 @@ function App() {
 
   return (
     <div className="app">
-      {!token && <Login />}
+      {!token && <Login />} 
       {token && <Player spotify={s} />}
+     
     </div>
   );
 }
